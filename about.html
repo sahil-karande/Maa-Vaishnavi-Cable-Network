@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Maa Vaishnavi Cable Network</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="faviconlogo2.png" sizes="34x34">
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">
+    <img src="faviconlogo.png" alt="MVCN Logo">
+    Maa Vaishnavi Cable Network
+  </div>
+
+  <!-- desktop main links -->
+  <div class="nav-main">
+    <ul class="nav-links">
+      <li><a href="index.html" data-translate="navHome">Home</a></li>
+      <li><a href="about.html" data-translate="navAbout">About</a></li>
+      <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+      <li><a href="support.html" data-translate="navSupport">Support</a></li>
+      <li><a href="contact.html" data-translate="navContact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- language pill (styled) -->
+  <div class="language-selector" aria-hidden="false">
+    <select id="language-switcher" onchange="setLanguage(this.value)" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="mr">मराठी</option>
+    </select>
+  </div>
+
+  <!-- WhatsApp quick icon -->
+  <a href="https://wa.me/917709559466" class="btn-whatsapp-header" target="_blank" title="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+
+  <!-- Mobile hamburger (only visible on small screens) -->
+  <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu panel (insert directly after nav) -->
+<div class="mobile-nav-panel" aria-hidden="true">
+  <ul>
+    <li><a href="index.html" data-translate="navHome">Home</a></li>
+    <li><a href="about.html" data-translate="navAbout">About</a></li>
+    <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+    <li><a href="support.html" data-translate="navSupport">Support</a></li>
+    <li><a href="contact.html" data-translate="navContact">Contact</a></li>
+  </ul>
+</div>
+
+
+    <section id="about" class="container" style="padding-top: 4rem;">
+        <h2 data-translate="aboutTitle">About Us</h2>
+        <div class="about-content">
+            <div class="about-card">
+                <h3 data-translate="prefTitle">Our Preference</h3>
+                <p data-translate="prefIntro">At Maa Vaishnavi Cable Network, we prioritize:</p>
+                <ul class="preference-list">
+                    <li data-translate="prefItem1">Customer satisfaction above everything</li>
+                    <li data-translate="prefItem2">Strong local connectivity built on decades of trust</li>
+                    <li data-translate="prefItem3">Consistent service quality with minimal interruptions</li>
+                    <li data-translate="prefItem4">Honest pricing without hidden charges</li>
+                    <li data-translate="prefItem5">Long-term relationships with every household we serve</li>
+                </ul>
+                <p data-translate="prefConclusion">Your trust is our greatest asset, and we work every day to keep it.</p>
+            </div>
+
+            <div class="about-card">
+                <h3 data-translate="missionTitle">Our Mission</h3>
+                <p data-translate="missionIntro">Our mission is to deliver seamless, affordable, and high-quality cable TV and digital entertainment to every home in our network.</p>
+                <ul class="mission-list">
+                    <li data-translate="missionItem1">Providing a stable and clear cable experience</li>
+                    <li data-translate="missionItem2">Offering quick response and on-time support</li>
+                    <li data-translate="missionItem3">Ensuring trust, reliability, and transparency in every service</li>
+                    <!-- FIXED: use the correct key missionItem4 (was mission4) -->
+                    <li data-translate="missionItem4">Continuously upgrading our technology to meet modern entertainment needs</li>
+                </ul>
+                <p data-translate="missionConclusion">We aim to remain the most dependable local cable network in Nagpur's growing digital landscape.</p>
+            </div>
+
+            <div class="about-card">
+                <h3 data-translate="storyTitle">Our Story</h3>
+                <p data-translate="storyPara1">Founded in 1996 by <b>Mr. Pankaj Padmakar Karande</b>, Maa Vaishnavi Cable Network began with a simple vision — to bring reliable and high-quality cable television services to the communities of Nagpur.</p>
+                <p data-translate="storyPara2">From a small setup to a trusted local network, we have grown steadily while staying true to our commitment of transparency, timely service, and customer-first values.</p>
+                <p data-translate="storyPara3">For over two decades, we have proudly served households across Janki Nagar, Shree Ram Nagar, Bhole Nagar, Bhole Baba Nagar, Saraswati Nagar, Vittal Nagar, and the surrounding areas.</p>
+                <p data-translate="storyPara4">Our long-standing presence makes us not just a service provider — but a part of the community.</p>
+            </div>
+            
+            <div class="about-card">
+                <h3 data-translate="whyChooseTitle">Why Choose Maa Vaishnavi Cable Network</h3>
+                <ul class="choice-list">
+                    <li data-translate="choiceItem1_title">✔ Trusted Since 1996</li>
+                    <li data-translate="choiceItem2_title">✔ Strong Local Coverage</li>
+                    <li data-translate="choiceItem3_title">✔ Clear & Stable Connection</li>
+                    <li data-translate="choiceItem4_title">✔ Quick Customer Support</li>
+                    <li data-translate="choiceItem5_title">✔ Fair & Transparent Pricing</li>
+                    <li data-translate="choiceItem6_title">✔ Community-Focused Service</li>
+                    <li data-translate="choiceItem7_title">✔ Wide Channel Variety</li>
+                    <li data-translate="choiceItem8_title">✔ Easy Digital Recharge</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+<!-- START FOOTER (Updated Footer for ALL pages) -->
+<footer>
+  <div class="footer-top container">
+    <div class="footer-grid">
+
+      <!-- Column 1: Branding -->
+      <div class="footer-col footer-branding-col">
+        <div class="logo footer-logo-text">
+          <img src="faviconlogo.png" alt="MVCN Logo">
+          Maa Vaishnavi Cable Network
+        </div>
+
+        <p class="footer-about-text" data-translate="footerAboutText">
+          Providing reliable, high-quality cable TV and digital entertainment solutions for homes in Nagpur.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://wa.me/917709559466" target="_blank" aria-label="WhatsApp">
+            <img src="whatsapplogo.png" alt="WhatsApp Icon" class="footer-icon">
+          </a>
+          <a href="tel:+917709559466" aria-label="Call Us">
+            <img src="call.png" alt="Phone Icon" class="footer-icon">
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links-col">
+        <h3 data-translate="quickLinksTitle">Quick Links</h3>
+        <ul>
+          <li><a href="index.html" data-translate="navHome">Home</a></li>
+          <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+          <li><a href="about.html" data-translate="navAbout">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Support -->
+      <div class="footer-col footer-support-col">
+        <h3 data-translate="supportTitle">Support</h3>
+        <ul>
+
+          <!-- Combined (Single Link) -->
+          <li>
+            <a href="support.html#quickfixes" data-translate="quickFixesTitle">
+              Quick Fixes & FAQs
+            </a>
+          </li>
+
+          <!-- Contact & Visit -->
+          <li>
+            <a href="contact.html" data-translate="contactHeaderTitle">
+              Contact & Visit
+            </a>
+          </li>
+
+          <!-- Terms & Conditions -->
+          <li>
+            <a href="terms.html" data-translate="termsTitle">
+              Terms & Conditions
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div class="footer-col footer-contact-details-col">
+        <h3 data-translate="contactTitle">Contact Us</h3>
+
+        <p class="footer-address">
+          📍 4437+F46 Uday Nagar Road, Janki Nagar, near MLA. Sudhakar Kohale house,
+          Manewada, Nagpur, Maharashtra 440034
+        </p>
+
+        <p class="footer-email">
+          Email:
+          <a href="mailto:mvcn.support@gmail.com">mvcn.support@gmail.com</a>
+        </p>
+
+        <p class="footer-phone-number">
+          Phone:
+          <a href="tel:+917709559466">+91 77095 59466</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-content">
+      <p class="footer-developed-by" data-translate="footerDev">
+        Website Developed by <span>Sahil Karande</span>
+      </p>
+
+      <p class="footer-copyright-line" data-translate="footerCopy">
+        © 2025 Maa Vaishnavi Cable Network. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+    <script src="script.js"></script>
+</body>
+</html>

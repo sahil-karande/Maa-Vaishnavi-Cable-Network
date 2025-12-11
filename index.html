@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maa Vaishnavi Cable Network</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="faviconlogo2.png" sizes="34x34">
+</head>
+<body>
+
+   <nav class="navbar">
+  <div class="logo">
+    <img src="faviconlogo.png" alt="MVCN Logo">
+    Maa Vaishnavi Cable Network
+  </div>
+
+  <!-- desktop main links -->
+  <div class="nav-main">
+    <ul class="nav-links">
+      <li><a href="index.html" data-translate="navHome">Home</a></li>
+      <li><a href="about.html" data-translate="navAbout">About</a></li>
+      <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+      <li><a href="support.html" data-translate="navSupport">Support</a></li>
+      <li><a href="contact.html" data-translate="navContact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- language pill (styled) -->
+  <div class="language-selector" aria-hidden="false">
+    <select id="language-switcher" onchange="setLanguage(this.value)" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="hi">हिंदी</option>
+      <option value="mr">मराठी</option>
+    </select>
+  </div>
+
+  <!-- WhatsApp quick icon -->
+  <a href="https://wa.me/917709559466" class="btn-whatsapp-header" target="_blank" title="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+
+  <!-- Mobile hamburger (only visible on small screens) -->
+  <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu panel (insert directly after nav) -->
+<div class="mobile-nav-panel" aria-hidden="true">
+  <ul>
+    <li><a href="index.html" data-translate="navHome">Home</a></li>
+    <li><a href="about.html" data-translate="navAbout">About</a></li>
+    <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+    <li><a href="support.html" data-translate="navSupport">Support</a></li>
+    <li><a href="contact.html" data-translate="navContact">Contact</a></li>
+  </ul>
+</div>
+
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-translate="homeTitle">Nagpur's Best Entertainment</h1>
+            <p data-translate="homeSubtitle">Crystal clear HD channels and affordable plans for your family.</p>
+            <a href="#packages" class="btn-primary" data-translate="viewPackages">View Packages</a>
+        </div>
+    </section>
+
+    <section id="packages" class="container">
+        <h2 data-translate="packagesTitle">Popular Packages</h2>
+        <div class="packages-grid" id="packages-container">
+            <!-- packages are rendered by script.js -->
+        </div>
+    </section>
+
+    <!-- OFFER SECTION (placed directly below packages as requested) -->
+    <div class="container offer-container" aria-hidden="false">
+        <!-- strip (marquee) -->
+        <div class="offer-strip" role="region" aria-label="Special Offer" aria-live="polite">
+            <!-- viewport -->
+            <div class="marquee" tabindex="0">
+                <!-- inner wrapper (script duplicates track to make an infinite loop) -->
+                <div class="marquee-inner">
+                    <!-- single track: the script will clone this to create the continuous loop -->
+                    <div class="marquee-track">
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+                        <div class="marquee-item">HD Setup Box Offer !</div>
+          
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer card / details -->
+        <div class="offer-block">
+            <div class="package-card offer-card" role="group" aria-label="Offer details">
+                <p class="offer-main" data-translate="offerDetails">
+                    Get <strong>FREE 1 Month HD</strong> or <strong>2 Months SD</strong> Subscription — <em>HD Setup Box only at ₹1800/-</em>
+                </p>
+                <div class="offer-actions">
+                    <a href="https://wa.me/917709559466?text=I%20want%20the%20HD%20Setup%20Box%20offer" 
+                       class="btn-primary" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       data-translate="getOfferBtn">
+                        Get Offer
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end offer -->
+
+    
+<!-- START FOOTER (Updated Footer for ALL pages) -->
+<footer>
+  <div class="footer-top container">
+    <div class="footer-grid">
+
+      <!-- Column 1: Branding -->
+      <div class="footer-col footer-branding-col">
+        <div class="logo footer-logo-text">
+          <img src="faviconlogo.png" alt="MVCN Logo">
+          Maa Vaishnavi Cable Network
+        </div>
+
+        <p class="footer-about-text" data-translate="footerAboutText">
+          Providing reliable, high-quality cable TV and digital entertainment solutions for homes in Nagpur.
+        </p>
+
+        <div class="footer-social">
+          <a href="https://wa.me/917709559466" target="_blank" aria-label="WhatsApp">
+            <img src="whatsapplogo.png" alt="WhatsApp Icon" class="footer-icon">
+          </a>
+          <a href="tel:+917709559466" aria-label="Call Us">
+            <img src="call.png" alt="Phone Icon" class="footer-icon">
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col footer-links-col">
+        <h3 data-translate="quickLinksTitle">Quick Links</h3>
+        <ul>
+          <li><a href="index.html" data-translate="navHome">Home</a></li>
+          <li><a href="index.html#packages" data-translate="navPacks">Packs</a></li>
+          <li><a href="about.html" data-translate="navAbout">About</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Support -->
+      <div class="footer-col footer-support-col">
+        <h3 data-translate="supportTitle">Support</h3>
+        <ul>
+
+          <!-- Combined (Single Link) -->
+          <li>
+            <a href="support.html#quickfixes" data-translate="quickFixesTitle">
+              Quick Fixes & FAQs
+            </a>
+          </li>
+
+          <!-- Contact & Visit -->
+          <li>
+            <a href="contact.html" data-translate="contactHeaderTitle">
+              Contact & Visit
+            </a>
+          </li>
+
+          <!-- Terms & Conditions -->
+          <li>
+            <a href="terms.html" data-translate="termsTitle">
+              Terms & Conditions
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div class="footer-col footer-contact-details-col">
+        <h3 data-translate="contactTitle">Contact Us</h3>
+
+        <p class="footer-address">
+          📍 4437+F46 Uday Nagar Road, Janki Nagar, near MLA. Sudhakar Kohale house,
+          Manewada, Nagpur, Maharashtra 440034
+        </p>
+
+        <p class="footer-email">
+          Email:
+          <a href="mailto:mvcn.support@gmail.com">mvcn.support@gmail.com</a>
+        </p>
+
+        <p class="footer-phone-number">
+          Phone:
+          <a href="tel:+917709559466">+91 77095 59466</a>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-content">
+      <p class="footer-developed-by" data-translate="footerDev">
+        Website Developed by <span>Sahil Karande</span>
+      </p>
+
+      <p class="footer-copyright-line" data-translate="footerCopy">
+        © 2025 Maa Vaishnavi Cable Network. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
