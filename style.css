@@ -681,6 +681,8 @@ footer {
     .footer-bottom-content { flex-direction: column; text-align: center; gap: 8px; }
 }
 
+/* --- existing CSS above remains unchanged --- */
+
 /* Support Page Cards — Styled Exactly Like Package Cards */
 .support-cards {
     display: grid;
@@ -696,6 +698,9 @@ footer {
     border-radius: 10px;                    /* same rounded corners */
     box-shadow: 0 4px 10px #45596d;         /* same shadow */
     border-top: 5px solid var(--primary-color); /* same top border */
+    /* ensure cards use full available width and are accessible on small screens */
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Headings inside support card */
@@ -725,6 +730,31 @@ footer {
     color: #444;
     font-size: 0.95rem;
 }
+
+/* ---------------------------
+   RESPONSIVE: STACK SUPPORT CARDS
+   --------------------------- */
+
+/* Make the support cards stack vertically on small screens (mobile) */
+@media (max-width: 800px) {
+  .support-cards {
+    grid-template-columns: 1fr;  /* stack: Quick Fixes above FAQs */
+    gap: 14px;
+    padding: 0 8px;
+  }
+
+  .support-card {
+    padding: 14px;
+    border-radius: 10px;
+  }
+
+  .support-card details {
+    padding: 10px;
+  }
+}
+
+/* ---- keep existing mobile queries below unchanged ---- */
+
 /* ---------------------------
    TERMS PAGE: remove white gap
    --------------------------- */
